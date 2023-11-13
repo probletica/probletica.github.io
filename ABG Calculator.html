@@ -1,0 +1,118 @@
+<html align="justify" dir="lft" lang="fa">
+<head>
+<meta charset="utf-8">
+<head>
+				<script type="text/javascript" src="calc-plugin.js"></script>
+    			<link href="ref-medcalc-iphone.css" type="text/css" rel="stylesheet" />
+				<script type="text/javascript" src="ref-medcalc-iphone.js"></script>
+			</head>
+			<body style="font-family:'sans'">
+			
+<div id="bleeding-risk-index-warfarin" class="clinical_criteria">	<!-- Open MC3K Wrapper -->
+
+<div class="calc_title">
+
+<h1>
+ABG تفسیر 
+</h1></div>
+</h1></div>
+ <div id="medcal" class="sitecore_resettags">
+<script language="javascript" type="text/javascript" src="./ABG Calculator_files/abg_calculator.js.download"></script>
+<div id="calc_main">
+<div id="calc_input">
+<div class="block">
+  <div class="blockhead"></div>
+  <div class="blockbody formcontrols">
+    <div class="section">
+      <div class="blockrow">
+        <!------ Begin of editable section ------>
+        <center>
+          <form method="post" name="acids" id="acids">
+            <table cellpadding="1" cellspacing="1" border="1" class="tborder">
+              <tbody><tr class="thead">
+                <td colspan="3">مقادیر گاز خون شریانی (ABG):</td>
+                <td colspan="2">مقادیر آنیون گپ:</td>
+              </tr>
+              <tr>
+                <td align="right" class="alt1">pH : </td>
+                <td align="left" class="alt1"><input name="ph" type="text" class="textbox" size="4" maxlength="4"></td>
+                <td align="left" class="alt1">7.36 - 7.44 </td>
+                <td align="right" class="alt1">سدیم (Na<sup>+</sup>):</td>
+                <td align="left" class="alt1"><input name="na" type="text" class="textbox" size="3" maxlength="3">
+                  mEq/L </td>
+              </tr>
+              <tr>
+                <td align="right"> P<sub>CO<sub>2</sub></sub> : </td>
+                <td align="left" class="alt1"><input name="pco2" type="text" class="textbox" size="3" maxlength="3">
+                  mm Hg </td>
+                <td align="left" class="alt1">36 - 44 mm Hg </td>
+                <td align="right" class="alt1">بیکربنات (HCO<sub>3</sub><sup>-</sup>):</td>
+                <td align="left" class="alt1"><input name="bicarb" type="text" class="textbox" onblur="changeABG(bicarb.value);" size="3" maxlength="3">
+                  mEq/L </td>
+              </tr>
+              <tr>
+                <td align="right"> HCO<sub>3</sub><sup>-</sup> : </td>
+                <td align="left" class="alt1"><input name="hco3" type="text" class="textbox" onblur="changeBicarb(hco3.value);" size="3" maxlength="3">
+                  mEq/L </td>
+                <td align="left" class="alt1">22 - 26 mEq/L </td>
+                <td align="right" class="alt1">کلرید (Cl<sup>-</sup>):</td>
+                <td align="left" class="alt1"><input name="cl" type="text" class="textbox" size="3" maxlength="3">
+                  mEq/L </td>
+              </tr>
+              <tr>
+                <td colspan="3" align="center" class="alt1"><input type="button" class="button" onclick="acidBase(this.form)" value="محاسبه">
+                  <input type="پاک کردن" class="button"></td>
+                <td align="right" class="alt1">آلبومین :</td>
+                <td align="left" class="alt1"><input name="albumin" type="text" class="textbox" size="3" maxlength="3">
+                  g/dL </td>
+              </tr>
+              <tr class="alt2">
+                <td align="left" colspan="3"> تفسیر وضعیت اسید - باز: </td>
+                <td align="right">آنیون گپ :</td>
+                <td align="left"><input name="agap" type="text" class="textbox" size="3" maxlength="3">
+                  mEq/L &nbsp;&nbsp; نرمال : &lt; 16 </td>
+              </tr>
+              <tr class="alt2">
+                <td colspan="5" "=""><center>
+                    <textarea name="interp" wrap="soft" rows="10" cols="90"></textarea>
+                  </center></td>
+              </tr>
+            </tbody></table>
+          </form>
+        </center>
+        <!------ End of editable section ------>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+</div>		<!-- End calc_result -->
+
+<div class="spacer"></div>
+
+
+<div id="calc_info">
+
+
+		<!-- End calc_disclaimer --><script language="JavaScript1.1" type="text/javascript">
+/* <![CDATA[ */
+
+;
+BleedingRiskIndexWarfarin_fx();
+/* ]]> */
+</script>
+
+
+
+</div>	<!-- Close MC3K Wrapper -->
+
+
+
+                                         
+  
+                        
+<!-- 1321913888 //-->
+</body>
+			</html>
+			
